@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense-tracker — isa</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <h1>Expense Tracker</h1>
+            <p>Keep track of your daily expenses</p>
+        </div>
+
+        <div class="form">
+            <input type="text" id="expense-name" placeholder="Expense name">
+            <input type="number" id="expense-amount" placeholder="Amount">
+
+            <button id="add-btn"> Add Expense </button>
+        </div>
+
+        <div class="summary">
+            <h2 id="total">Total: $0.00</h2>
+        </div>
+
+        <ul id="expense-list"></ul>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
